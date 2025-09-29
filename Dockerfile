@@ -8,4 +8,3 @@ RUN npm ci
 ADD app.js ./
 ENTRYPOINT ["node", "app.js"]
 EXPOSE 3000
-
